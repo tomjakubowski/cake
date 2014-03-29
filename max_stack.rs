@@ -1,7 +1,7 @@
 #[ crate_type = "bin" ];
 
 mod max_stack {
-    use std::vec_ng::Vec;
+    use std::vec::Vec;
 
     struct MaxStack {
         data: Vec<i64>,
